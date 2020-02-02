@@ -1,4 +1,4 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
 using MoneyPlannerDomain.Interfaces.DomainServices;
 using MoneyPlannerDomain.Interfaces.Repositories;
 using System;

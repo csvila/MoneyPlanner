@@ -1,8 +1,8 @@
-﻿using MoneyPlannerDomain.Entities;
+using MoneyPlannerDomain.Entities;
 
 namespace MoneyPlannerDomain.Interfaces.Repositories
 {
-    public interface IPessoaDomainSvc : IRepositoryBase<Pessoa>
+    public interface IPessoaRepository : IRepositoryBase<Pessoa>
     {
     }
 }

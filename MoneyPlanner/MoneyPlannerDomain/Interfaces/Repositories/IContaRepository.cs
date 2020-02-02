@@ -1,8 +1,8 @@
-﻿using MoneyPlannerDomain.Entities;
+using MoneyPlannerDomain.Entities;
 
 namespace MoneyPlannerDomain.Interfaces.Repositories
 {
-    public interface IContaDomainSvc:IRepositoryBase<Conta>
+    public interface IContaRepository:IRepositoryBase<Conta>
     {
     }
 }

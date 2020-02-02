@@ -1,8 +1,8 @@
-﻿using MoneyPlannerDomain.Entities;
+using MoneyPlannerDomain.Entities;
 
 namespace MoneyPlannerDomain.Interfaces.Repositories
 {
-    public interface IMovimentoEntradaDomainSvc : IRepositoryBase<MovimentoDeEntrada>
+    public interface IMovimentoEntradaRepository : IRepositoryBase<MovimentoDeEntrada>
     {
     }
 }

@@ -1,8 +1,8 @@
-﻿using MoneyPlannerDomain.Entities;
+using MoneyPlannerDomain.Entities;
 
 namespace MoneyPlannerDomain.Interfaces.Repositories
 {
-    public interface ICentroDeCustosDomainSvc: IRepositoryBase<CentroDeCusto>
+    public interface ICentroDeCustosRepository: IRepositoryBase<CentroDeCusto>
     {
     }
 }
