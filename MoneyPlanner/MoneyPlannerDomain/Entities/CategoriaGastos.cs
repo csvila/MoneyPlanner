@@ -1,4 +1,4 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
 using MoneyPlannerDomain.Interfaces.DomainServices;
 using System.Collections.Generic;
 
@@ -13,6 +13,7 @@ namespace MoneyPlannerDomain.Entities
         {
         }
 
+        public int CategoriaGastosId { get; set; }
         public string Descricao { get; set; }
         public IList<Gasto> Gastos { get; }
     }

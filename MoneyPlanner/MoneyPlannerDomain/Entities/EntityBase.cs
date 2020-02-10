@@ -1,4 +1,4 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
 using MoneyPlannerDomain.Interfaces.DomainServices;
 using System;
 using System.Collections.Generic;
@@ -8,6 +8,8 @@ namespace MoneyPlannerDomain.Entities
     public abstract class EntityBase<TEntity> : IDisposable where TEntity : IEntity
     {
         private readonly IServiceBase<TEntity> _serviceBase;
+
+        public DateTime DataCadastro { get; set; }
 
         public EntityBase(IServiceBase<TEntity> serviceBase)
         {

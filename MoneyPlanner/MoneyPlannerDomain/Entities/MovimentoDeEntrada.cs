@@ -1,6 +1,6 @@
-﻿namespace MoneyPlannerDomain.Entities
+namespace MoneyPlannerDomain.Entities
 {
-    public class MovimentoDeEntrada:Movimento
+    public class MovimentoDeEntrada : Movimento
     {
         public Receita Receita { get; set; }
     }

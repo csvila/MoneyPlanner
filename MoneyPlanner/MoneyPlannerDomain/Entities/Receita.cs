@@ -1,4 +1,5 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
+using System.Collections.Generic;
 
 namespace MoneyPlannerDomain.Entities
 {
@@ -7,7 +8,8 @@ namespace MoneyPlannerDomain.Entities
     /// </summary>
     public class Receita: IEntity
     {
+        public int ReceitaId { get; set; }
         public string Descricao { get; set; }
-        public Conta ContaDestino { get; set; }
+        public IList<MovimentoDeEntrada> Entradas { get; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
 using System.Collections.Generic;
 
 namespace MoneyPlannerDomain.Entities
@@ -11,6 +11,7 @@ namespace MoneyPlannerDomain.Entities
         public string Cpf { get; set; }
         public string Nome { get; set; }
         public IList<Conta> Contas { get; }
-        public IList<Movimento> Movimentos { get; }
+        public IList<MovimentoDeEntrada> MovimentosEntrada { get; }
+        public IList<MovimentoDeSaida> MovimentosSaida{ get; }
     }
 }

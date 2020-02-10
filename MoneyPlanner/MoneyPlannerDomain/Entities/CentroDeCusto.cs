@@ -1,4 +1,4 @@
-﻿using MoneyPlannerDomain.Interfaces;
+using MoneyPlannerDomain.Interfaces;
 using System.Collections.Generic;
 
 namespace MoneyPlannerDomain.Entities
@@ -8,6 +8,7 @@ namespace MoneyPlannerDomain.Entities
     /// </summary>
     public class CentroDeCusto: IEntity
     {
+        public int CentroDeCustoId { get; set; }
         public string Descricao { get; set; }
         public decimal SaldoPrevisto { get; set; }
         public IList<Gasto> Gastos { get; }
